@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/dashboard/:match*",
+      "destination": "https://<dashboard-project>.vercel.app/dashboard/:match*"
+    }
+  ]
+}
